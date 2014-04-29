@@ -1,0 +1,137 @@
+*
+{
+	padding: 0;
+	border:0;
+	margin: 0;	
+}
+
+@font-face
+{
+	font-family:"Roman SD";
+	src:url("Roman SD");
+	src: url(../fonts/Roman_SD-webfont.ttf) format('truetype'),
+		 url(../fonts/Roman_SD-webfont.woff) format('woof'),
+		 url(../fonts/Roman_SD-webfont.eot?#iefix) format('embedded-opentype'),
+		 url(../fonts/Roman_SD-webfont.svg#Pecita) format('svg');
+}
+
+body
+{
+	background-image: url(../img/fondo.jpg);
+	display: inline-block;
+	font-size: 1em;	
+	font-family: "Roman SD", Helvetica, Verdana;	
+	padding: 0 45px 0 45px;
+}
+
+div#contenedor
+{
+	clear: both;
+	background: #ffffff;
+	margin: auto;
+	padding: 0 25px 0 25px;	
+}
+
+#page ,#slider 
+{
+	height: 350px;
+	width:1300px;
+	max-width: 95%;
+}
+			
+#slider li { list-style:none; }
+
+#menu
+{
+	position:relative;
+	left: 15%;
+	width: 45%;
+	background:rgba(148,148,148,0.9);
+	border-radius:20px;
+	box-shadow: rgba(0,0,0,0.3) -2px -5px 5px Inset;
+	margin:4px auto;
+	padding:2px 0;
+}
+
+#home
+{
+	margin-left: 15px;
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+#menu ul
+{
+	list-style: none;
+	display: inline-block;
+	margin:auto;
+	width:95%;
+}
+
+nav#menu li
+{
+	display: inline-block;
+	font-size: 0.63em;
+	vertical-align: middle;
+	padding: 0;
+	
+}
+
+
+#elea li
+{
+	display: inline-block;
+	color:#ffffff;
+	list-style:none;
+	text-decoration: none;
+	max-width:100%;
+	border-right:3px groove rgb(0,200,245);
+	padding:0 6px 0 0;
+	vertical-align: middle;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+}
+#elea li:last-child 
+{
+	border-right:none;
+}
+
+#elea li:hover
+{
+	color:rgb(255,255,255);
+	background: rgba(0,0,0,0.09);
+	border-radius: 5px;
+	padding: 4px 0 6px 0;
+	box-shadow: rgba(255,255,255,0.4) -1px 1px 10px inset;
+}
+
+#h
+{
+	max-width: 100px;
+	margin: auto;
+	padding: 0;
+}
+
+a 
+{
+	padding:0;
+	display: inline-block;
+	margin:auto;
+}
+
+a#logo, div#widgets,h1
+{
+	display: inline-block; 	
+	vertical-align: top;
+}
+
+div#widgets
+{
+	text-align: right;
+	width:73%;
+}
+
+header h1
+{
+	text-align: left;
+}

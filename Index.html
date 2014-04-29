@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<link rel="stylesheet" href="css/estilos.css">
+		<link rel="shortcut icon" type="image/x-icon" href="logo-escuela.ico">
+		<link rel="stylesheet" href="css/rhinoslider-1.05.css"/>
+		<meta charset="UTF-8"/>
+		<meta name="description" content=" tambien para despues"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<title>Escuela de Ingenier&iacute;a Upoli</title>
+
+		<script src="js/jquery.min.js">  </script>
+
+		<script src="js/rhinoslider-1.05.js"> </script>
+		<script src="js/mousewheel.js"> </script>
+		<script src="js/easing.js"> </script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#slider').rhinoslider({
+					slidePrevDirection:'toTop' ,
+					easing: 'easeInOutCubic',
+					slideNextDirection:'toBottom',
+					pauseOnHover: false,
+					effectTime:1500,
+					showTime:7000,
+					autoPlay: true,
+					showCaptions: 'always',
+				});
+			});
+		</script>
+
+	</head>
+	
+	<body>
+		<div id="contenedor">
+			<header>
+				<h1>			
+					<a  id="logo" href="index.html">
+						<img src="img/logo-escuela.png"/>
+					</a>
+				</h1>
+				<div id="widgets">
+					<a href="https://www.facebook.com/ingenieriaupoli?fref=ts" target="	_blank">
+						<img src="img/widgwt-facebook.png">
+					</a>
+					<a href="" target="_blank">
+					<img src="img/widget-twitter">
+					</a>
+					<a href="https://www.youtube.com/channel/UC-cs3gTGdkz_uPBbOfIf8qw" target="_blank">
+						<img src="img/widgwt-youtube.png">
+					</a>
+				</div>					
+			</header>
+			<nav id="menu">				
+					<ul id="elea">										
+							<a id="home" href="index.html"> <img  id="h" src="img/home.png" width="23" height="23"> </a>					
+						<li>Acerca de la Escuela</li>
+						<li>Alumnos</li>
+						<li>Herramientas</li>
+						<li>Fotograf&iacute;as</li>
+						<li>Cont&aacute;ctenos</li>
+					</ul>		
+				</nav>
+
+			<section id="seccion">
+				<div id="page">
+					<ul id="slider">
+						<li> 
+							<img src="img/slide.jpg"/>
+								<div class="rhino-caption"> holamundoo wuajajajjaj ajajaja trtyerth errherherheth dryjcrtf dfgdf gdfgdffgjg hjrjfgjdry hrfj fdjdrjsrt ertuse rtusrtuse rtus etuse tusertuser tuert uert uset usetuyse 
+								</div>
+						</li>
+
+						<li> 
+							<img src="img/slide-1.jpg"/> 
+								<div class="rhino-caption"> holamundoo wuajajajjaja jajaja trtyerth errhe rherheth dryjcrtf dfgdfgdfgdf fgjghjrjfgjdry hrfjfdjdr rt ertusertu srtusertus etus etusertuser tuert uertuset usetuyse
+							</div>  
+						</li>
+
+						<li> 
+							<img src="img/slide-2.jpg"/> 
+							<div class="rhino-caption"> 
+								<p>
+								Con el apoyo de Educación a Distancia se han rehabilitado los equipos del laboratorio del Electr&oacute;nica para las asignaturas de Sistemas Digitales, Control por computadoras y Arquitectura de Computadoras III.
+								</p>
+							</div>  
+						</li>
+
+						<li> 
+							<img src="img/slide-3.jpg"/> 
+							<div class="rhino-caption"> 
+								<p>
+								La Escuela de Ingeniería en conjunto con la asociación de Ex Becarios de Bancaja y el COSEP, están organizando un taller para la creación de empresas tecnológicas. El taller está exclusivamente dirigido a estudiantes activos y graduados de la Escuela de Ingeniería.
+							</div>  
+						</li>
+
+						<li> 
+							<img src="img/slide-3.png"/> 
+							<div class="rhino-caption"> holamundoo wuajajajja jajajaja trtyerth errherherheth dryjcrtf dfgdfgd fgdffgj ghjrjfgjdry hrfj fdjdrjsrt ertusertu srtusertus etu setusertuser tuert uertuset usetuyse
+							</div>  
+						</li>
+					</ul>
+				</div>
+			</section>
+			<footer></footer>
+		</div>	
+		</body>
+</html>
